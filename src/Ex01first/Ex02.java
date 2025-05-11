@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex02 {
     public static void main(String[] args) {
         int a = 5;

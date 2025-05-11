@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex22 {
     public static void main(String[] args) {
         //반복문(for문)

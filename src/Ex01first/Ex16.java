@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex16 {
     public static void main(String[] args){
         //강제 타입 변환 (=명시적 형변환) : 다운캐스팅, cast연산자 사용 : (자료형)

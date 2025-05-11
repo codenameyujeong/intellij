@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class ExMain {
     public static void main(String[] args){
         //메인메소드영역

@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex12 {
     public static void main(String[] args) {
         /* println()괄호안에 문자열값이 아무것도 없어도된다 그럴경우 한줄 바꿈만 실행 또는괄호안에 문자열값이있으면 해당문자열 출력후 한줄바꿈실행,

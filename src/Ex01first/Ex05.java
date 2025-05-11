@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex05 {
     public static void main(String[] args) {
         //String a = "가가가";

@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex23 {
     public static void main(String[] args) {
         System.out.println("while문 1");

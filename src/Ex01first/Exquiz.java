@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Ex01first;
 
 public class Exquiz {
     public static void main(String[] args){

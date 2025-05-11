@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex01 {
     public static void main(String[] args) {
         int n = 123;

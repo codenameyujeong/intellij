@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex13 {
     public static void main(String[] args){
         /*System.out.println("문자열값%서식자코드명1,..%서식지정자코드명n");

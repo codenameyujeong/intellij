@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex26 {
     public static void main(String[] args) {
         System.out.println("라벨 분기문 for문");

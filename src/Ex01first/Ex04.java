@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex04 {
     public static void main(String[] args){
         int a = 10, b = 10;

@@ -1,3 +1,5 @@
+package Ex01first;
+
 public class Ex15 {
     public static void main(String[] args) {
         // 자동 타입 변환 = 묵시적 타입 변환 (업캐스팅)
