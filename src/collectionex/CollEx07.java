@@ -18,7 +18,7 @@ public class CollEx07 {
 		//put메소드 기능: 해당 key가 존재하지 않으면 추가, key가 존재하면 값 변경(설정)
 		System.out.println(hm + "\n");
 		
-		for (String key : hm.keySet()) {
+		for (String key : hm.keySet()) {//tostring메서드가 오버라이드되있다
 			System.out.println("key : " + key + ", value : " + hm.get(key));
 		}
 		System.out.println("\n========================\n");

@@ -1,9 +1,9 @@
 package collectionex;
-
+//20번지 30번지
 public class Student {
-	String name = "";
-	int ban;
-	int no;
+	String name = "";//홍길동
+	int ban;//1
+	int no;//1
 
 	Student() {}
 

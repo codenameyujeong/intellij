@@ -13,7 +13,8 @@ public class CollEx07_01 {
 		hm.put(3, "태양");
 		
 		System.out.println(hm + "\n");
-		System.out.println("hm.get(3): "+hm.get(3));
+		System.out.println("hm.get(3): "+hm.get(3));//()안에는 키값찾는거 없으면 null을 반환함
+//		System.out.println("hm.get(3): "+hm.get(3));
 		System.out.println("\n=========================\n");
 
 		for (int key : hm.keySet()) {
