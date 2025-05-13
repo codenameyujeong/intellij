@@ -11,11 +11,15 @@ public class UtilEx04 {
 		int nYear, nMonth, nDay;
 
 		// 현재날짜 구하기
-		Calendar calendar = new GregorianCalendar();
+		Calendar calendar = new GregorianCalendar();//파차클래스
+//		GregorianCalendar calendar = new GregorianCalendar();
 		nYear = calendar.get(Calendar.YEAR);
 		nMonth = calendar.get(Calendar.MONTH) + 1;
 		nDay = calendar.get(Calendar.DAY_OF_MONTH);
 		System.out.println("Gregorian Calendar = " + nYear +"년 "+ nMonth +"월 " + nDay+"일");
+
+		Date now = calendar.getTime();
+		System.out.println("now: "+now);
 		
 		calendar = new GregorianCalendar(2018,0,5);
 		nYear = calendar.get(Calendar.YEAR);

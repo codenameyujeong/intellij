@@ -31,9 +31,9 @@ date = todate.format(formatter);
 System.out.println("오늘 날짜의 정오: " +  date + "\n");
 
 todate = LocalDateTime.now();
-String dayOfWeek = todate.getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.getDefault());
-date = todate.format(formatter);
-System.out.println(date+" "+ dayOfWeek);
+		String dayOfWeek = todate.getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.getDefault());
+		date = todate.format(formatter);
+		System.out.println(date+" "+ dayOfWeek);
 	}
 }
 

@@ -8,16 +8,20 @@ public class UtilEx03 {
 
 	public static void main(String[] args) {
 		Calendar cal = Calendar.getInstance();
-		System.out.println(cal);
 		cal.set(cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DATE));
 
-		Date day = cal.getTime();
-		System.out.println("day: " + day);
-		System.out.println();
-		
-		Date nowday = new Date();
-		System.out.println("nowday: " + nowday);
+		Date day = new Date(cal.getTimeInMillis());
+		System.out.println("today0: " + day);
 
+		day = cal.getTime();
+		System.out.println("today1: " + day);
+
+		Date nowday = new Date();
+		System.out.println("today2: " + nowday);
+
+		Date someday = new Date(125, Calendar.MAY, 13, 12, 50, 55);
+		System.out.println("today3: " + someday);
+		System.out.println("\n===================\n");
 		
 		SimpleDateFormat sdf1, sdf2, sdf3;
 		sdf1 = new SimpleDateFormat("yyyy년 MM월 dd일 E요일");

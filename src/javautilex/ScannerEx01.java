@@ -7,7 +7,7 @@ public class ScannerEx01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("입력을 해주세요.");
+		System.out.println("입력을 해주세요.");//입력
 		
 		if(sc.hasNextInt()) {
 			System.out.println("1번["+sc.nextInt()+"] : 정수값입니다.");

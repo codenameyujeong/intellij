@@ -9,7 +9,8 @@ public class StringBufferEx01 {
 		System.out.println("길이0: " + str.length());
 		
 		//시작인덱스~ 인덱스-1번까지
-		System.out.println(str.delete(4, 8)); 
+		System.out.println(str.delete(4, 8)); //(4,8)에 뒤에 8은 8-1을한 7로됨
+		//str [&10] Java Oracle
 		System.out.println(str);
 		System.out.println("길이1: " + str.length());
 		
